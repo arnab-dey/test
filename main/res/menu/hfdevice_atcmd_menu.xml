@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/atcmd_menu"
+        android:title="@string/enteratcmd" />
+    <item
+        android:id="@+id/volume_menu"
+        android:title="@string/volume" />
+    <item
+        android:id="@+id/phonebook_menu"
+        android:title="@string/download_phonebook" />
+    <item
+        android:id="@+id/missedcallmenu"
+        android:title="@string/download_missedcall" />
+    <item
+        android:id="@+id/dialedcall_menu"
+        android:title="@string/download_dialedcall" />
+    <item
+        android:id="@+id/receivedcall_menu"
+        android:title="@string/download_receivedcall" />
+    <item
+        android:id="@+id/sim_menu"
+        android:title="@string/download_sim" />
+</menu>

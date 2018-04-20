@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="vendor_cmds">
+        <item>+BVRA=1</item>
+        <item>+BVRA=0</item>
+        <item>+CSCS=?</item>
+        <item>+CSCS="UTF-8"</item>
+        <item>+CPBS=?</item>
+        <item>+CPBS?</item>
+        <item>+CPBR=?</item>
+        <item>+CPBS="ME"</item>
+        <item>+CPBS="SM"</item>
+        <item>+CPBS="RC"</item>
+        <item>+CPBS="DC"</item>
+        <item>+CPBS=MC</item>
+        <item>+CPBR=1,10</item>
+        <item>+CPBR=11,20</item>
+        <item>+CIND</item>
+        <item>+VTS=10</item>
+        <item>+CNUM</item>
+        <item>+COPS?</item>
+        <item>+CGMI</item>
+        <item>+CGMM</item>
+    </string-array>
+</resources>

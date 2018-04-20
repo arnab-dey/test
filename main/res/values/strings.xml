@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CyPhon</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="dial">Dial</string>
+    <string name="redial">Redial</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="endcall">End Call</string>
+    <string name="vendorcmds">Vendor Commands</string>
+    <string name="callIndex">Enter the index of the call</string>
+    <string name="enteratcmd">Enter AT Command</string>
+    <string name="volume">Change Volume</string>
+    <string name="download_phonebook">Download Phonebook</string>
+    <string name="download_missedcall">Download Missed Calls</string>
+    <string name="download_dialedcall">Download Dialled Calls</string>
+    <string name="download_receivedcall">Download Received Call</string>
+    <string name="download_sim">Download Sim</string>
+</resources>
