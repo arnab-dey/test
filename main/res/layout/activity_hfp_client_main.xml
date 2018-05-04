@@ -68,18 +68,52 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:id="@+id/device1text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="@string/device1"/>
+            <TextView
+                android:id="@+id/titletext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_toRightOf="@+id/device1text"/>
+            <TextView
+                android:id="@+id/displaynumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:visibility="visible"
+                android:layout_below="@+id/titletext"/>
+            <TextView
+                android:id="@+id/device2text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="@string/device2"
+                android:layout_below="@+id/displaynumber"/>
+            <TextView
+                android:id="@+id/titletext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_toRightOf="@+id/device2text"
+                android:layout_below="@id/displaynumber"/>
+            <TextView
+                android:id="@+id/displaynumber2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:visibility="visible"
+                android:layout_below="@+id/titletext2"/>
 
-        <TextView
-            android:id="@+id/titletext"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18dp" />
-        <TextView
-            android:id="@+id/displaynumber"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="15dp"
-            android:visibility="visible" />
+        </RelativeLayout>
+
         <ListView
             android:id="@+id/call_list"
             android:layout_width="match_parent"
@@ -155,6 +189,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18dp"
+            android:visibility="visible"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/swap_ui_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="@string/swap_ui"
             android:visibility="visible"
             android:layout_weight="1"/>
     </LinearLayout>

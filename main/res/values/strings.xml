@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">CyPhon</string>
+    <string name="device1">Device 1: </string>
+    <string name="device2">Device 2: </string>
     <string name="enter_number">Enter Number</string>
     <string name="dial">Dial</string>
     <string name="redial">Redial</string>
@@ -14,4 +16,5 @@
     <string name="download_dialedcall">Download Dialled Calls</string>
     <string name="download_receivedcall">Download Received Call</string>
     <string name="download_sim">Download Sim</string>
+    <string name="swap_ui">Swap UI</string>
 </resources>

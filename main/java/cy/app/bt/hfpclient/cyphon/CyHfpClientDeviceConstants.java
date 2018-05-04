@@ -19,6 +19,7 @@ public class CyHfpClientDeviceConstants {
     public static final int HF_DEVICE_MULTI_CALL_CONTROL_DIALOG_ID = 5;
     public static final int HF_DEVICE_VOLUME_CHANGE_FAILED_DIALOG_ID = 6;
     public static final int HF_DEVICE_ENHANCED_CALL_CONTROL_DIALOG_ID = 7;
+    public static final int HF_DEVICE_DEVICE_SELECTION_DIALOG_ID = 8;
     public static final int HF_NOTIFICATION_ID = 1000001; /*Identifier for the notification*/
 
     public final static int PEER_FEAT_3WAY     = 0x00000001;
